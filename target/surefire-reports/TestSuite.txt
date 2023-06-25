@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 3, Time elapsed: 136.608 s <<< FAILURE! - in TestSuite
+serverStart(AppiumFrameworkDesign.eCommerce_TC_01)  Time elapsed: 84.891 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.androidsample.generalstore' application. Consider checking the driver's troubleshooting documentation. Original error: 'com.androidsample.generalstore.SplashActivity' or 'com.androidsample.generalstore.com.androidsample.generalstore.SplashActivity' never started. Consider checking the driver's troubleshooting documentation. 
+Host info: host: 'GOURI', ip: '10.0.0.4'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Appium\driver\chromedriver_91.4\chromedriver.exe, appium:deviceName=ArkavEmulator, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Selenium\PROG3\AppiumFrameworkDesign_ERep_Maven\src\test\java\AppiumFrameworkDesign\testData\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Selenium\PROG3\AppiumFra..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Appium\driver\chromedriv..., appium:deviceName: ArkavEmulator, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Selenium\PROG3\AppiumFra..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Appium\driver\chromedriv..., appium:deviceName: ArkavEmulator, platformName: ANDROID}
+
+serverStop(AppiumFrameworkDesign.eCommerce_TC_01)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+serverStart(AppiumFrameworkDesign.eCommerce_TC_4)  Time elapsed: 48.312 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability 
+Host info: host: 'GOURI', ip: '10.0.0.4'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Appium\driver\chromedriver_91.4\chromedriver.exe, appium:deviceName=ArkavEmulator, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Selenium\PROG3\AppiumFrameworkDesign_ERep_Maven\src\test\java\AppiumFrameworkDesign\testData\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Selenium\PROG3\AppiumFra..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Appium\driver\chromedriv..., appium:deviceName: ArkavEmulator, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Selenium\PROG3\AppiumFra..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Appium\driver\chromedriv..., appium:deviceName: ArkavEmulator, platformName: ANDROID}
+
+serverStop(AppiumFrameworkDesign.eCommerce_TC_4)  Time elapsed: 0.026 s  <<< FAILURE!
+java.lang.NullPointerException
+

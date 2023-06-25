@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="AppiumFrameworkDesign.testUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="End2End(failed)" verbose="0">
+    <classes>
+      <class name="AppiumFrameworkDesign.eCommerce_TC_01">
+        <methods>
+          <include name="serverStart"/>
+          <include name="formFillErrorMessage"/>
+          <include name="serverStop"/>
+          <include name="formFillPositive"/>
+        </methods>
+      </class> <!-- AppiumFrameworkDesign.eCommerce_TC_01 -->
+    </classes>
+  </test> <!-- End2End(failed) -->
+  <test thread-count="5" name="ErrorValidation(failed)" verbose="0">
+    <classes>
+      <class name="AppiumFrameworkDesign.eCommerce_TC_4">
+        <methods>
+          <include name="serverStart"/>
+          <include name="formFill"/>
+          <include name="serverStop"/>
+        </methods>
+      </class> <!-- AppiumFrameworkDesign.eCommerce_TC_4 -->
+    </classes>
+  </test> <!-- ErrorValidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
